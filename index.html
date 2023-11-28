@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script>
+        class person{
+            name;
+            lastname;
+            age;
+            set_name(){
+                this.name="nika";
+            }
+            set_lastname(){
+                this.lastname="bakhtadze";
+            }
+            set_age(){
+                this.age=19;
+            }
+            get_all(){
+                document.write(this.name);
+                document.write(this.lastname);
+                document.write(this.age);
+            }
+        };
+        var obieqti= new person();
+        obieqti.set_name();
+        obieqti.set_lastname();
+        obieqti.set_age();
+        document.write(obieqti.name+"<br>")
+        document.write(obieqti.lastname+"<br>")
+        document.write(obieqti.age)
+    </script>
+</head>
+<body>
+</body>
+</html>
